@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'qr-scanner';
+
+  scanSuccess($event) {
+    console.log('$event:', $event);
+  }
 }
